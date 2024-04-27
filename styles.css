@@ -22,8 +22,10 @@ body {
 }
 
 .custom-container button {
-  padding: 10px;
-  margin: 10px 100px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 20px;
+  width: 200px; /* Define a largura fixa do botão */
 }
 
 .custom-container .inputs {
@@ -88,6 +90,10 @@ body {
 @media (max-width: 768px) {
   .custom-container {
     width: 90%;
+  }
+
+  .custom-container button {
+    width: 150px;
   }
 
   .footer-container {
