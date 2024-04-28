@@ -22,10 +22,9 @@ body {
 }
 
 .custom-container button {
-  padding: 10px 20px;
   margin: 10px auto;
   border-radius: 20px;
-  width: 200px; /* Define a largura fixa do botão */
+  width: 200px;
 }
 
 .custom-container .inputs {
@@ -53,7 +52,7 @@ body {
 
 .logo {
   width: 300px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .main-container {
