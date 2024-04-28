@@ -1,0 +1,41 @@
+.custom-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-container button {
+  margin: 10px auto;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.custom-container .inputs {
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container h1 {
+  text-align: center;
+  font-weight: 1000;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .custom-container {
+    width: 90%;
+  }
+
+  .custom-container button {
+    width: 150px;
+  }
+}
