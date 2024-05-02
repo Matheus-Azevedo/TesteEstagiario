@@ -47,7 +47,11 @@ function sendFormsToConsole() {
   const inputEmail = document.getElementById("inputEmail");
   const inputPhone = document.getElementById("inputPhone");
 
-  console.log(`Nome: ${inputName.value}`);
-  console.log(`Email: ${inputEmail.value}`);
-  console.log(`Telefone: ${inputPhone.value}`);
+  const formData = {
+    Nome: inputName.value,
+    Email: inputEmail.value,
+    Telefone: inputPhone.value,
+  };
+
+  console.log(formData);
 }
